@@ -14,6 +14,10 @@ if ! location=$(type -p "zsh"); then
     sudo apt install -y zsh
 fi
 
+if ! location=$(type -p "toilet"); then
+    sudo apt install -y toilet
+fi
+
 if ! [ -a "~/.zshrc" ]; then
     echo
     echo "+--------------------------------------------------------------+"
