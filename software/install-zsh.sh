@@ -32,13 +32,7 @@ if ! [ -a "~/.zshrc" ]; then
 
     cd ~/.oh-my-zsh/custom/plugins
     git clone https://github.com/zsh-users/zsh-autosuggestions
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 
     cd ${SETUP_DIR}
-
-    sed -i "s/ZSH_THEME=\"robbyrussell\"/ZSH_THEME=\"agnoster\"/g" ~/.zshrc
-    sed -i "s/plugins=(git)/plugins=(\n  git\n  composer\n  docker\n  docker-compose\n  symfony\n  zsh-autosuggestions\n)/g" ~/.zshrc
-
-    echo "DEFAULT_USER=\$USER" >> ~/.zshrc
-    echo "" >> ~/.zshrc
-    echo "alias zshconfig=\"nano ~/.zshrc\"" >> ~/.zshrc
 fi
