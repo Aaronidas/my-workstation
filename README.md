@@ -4,7 +4,7 @@ Installation and customization script for my workstation.
 ## Usage
 Execute the following command in the bash terminal:
 
-    $ wget https://github.com/zoilomora/my-workstation/archive/master.zip
+    $ wget https://github.com/Aaronidas/my-workstation/archive/master.zip
     $ unzip master.zip
     $ cd my-workstation-master/
     $ ./setup.sh
