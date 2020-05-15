@@ -37,6 +37,7 @@ if ! [ -a "~/.zshrc" ]; then
     cd ~/.oh-my-zsh/custom/plugins
     git clone https://github.com/zsh-users/zsh-autosuggestions
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+    git clone https://github.com/TamCore/autoupdate-oh-my-zsh-plugins autoupdate
 
     cd ${SETUP_DIR}
 fi
