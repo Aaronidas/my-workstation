@@ -56,6 +56,9 @@ sudo apt install -y \
 ./software/install-virtualbox.sh
 ./software/install-zsh.sh
 
+# Custom config
+./custom/install-dotfiles.sh
+
 echo
 echo "################################################################"
 echo "  Updating the system                                           "
