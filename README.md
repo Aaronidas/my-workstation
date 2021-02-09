@@ -14,7 +14,7 @@ Execute the following command in the bash terminal:
     TODO
 
 ## Tested on
-- [Ubuntu Desktop 19.10](http://releases.ubuntu.com/19.10/ubuntu-19.10-desktop-amd64.iso)
+- [Ubuntu Desktop 20.10](https://releases.ubuntu.com/20.10/ubuntu-20.10-desktop-amd64.iso)
 
 ## License
 Licensed under the [MIT license](http://opensource.org/licenses/MIT)
